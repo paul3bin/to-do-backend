@@ -29,7 +29,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['todo-django-rest-framework.herokuapp.com']
 
 # CORS allowed origin setting
 CORS_ORIGIN_ALLOW_ALL = False

@@ -35,6 +35,8 @@ ALLOWED_HOSTS = ['todo-django-rest-framework.herokuapp.com']
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "https://to-do-application-c9aea.firebaseapp.com/",
+    "https://to-do-application-c9aea.web.app/",
 ]
 
 # Application definition

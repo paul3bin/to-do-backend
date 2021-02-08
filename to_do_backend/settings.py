@@ -29,14 +29,14 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = ['todo-django-rest-framework.herokuapp.com']
+ALLOWED_HOSTS = ['todo-django-rest-framework.herokuapp.com', '127.0.0.1']
 
 # CORS allowed origin setting
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://to-do-application-c9aea.firebaseapp.com/",
-    "https://to-do-application-c9aea.web.app/",
+    "https://to-do-application-c9aea.firebaseapp.com",
+    "https://to-do-application-c9aea.web.app",
 ]
 
 # Application definition
